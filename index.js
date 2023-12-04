@@ -78,7 +78,7 @@ async function main() {
                 console.log(`FK: ${foreignKey.constraint_name} = ${foreignKey.destination}`)
             })
         })
-        exit()
+        
     } else {
         // this is just scaffolding for the mysql part
         const connection = await createConnection({
